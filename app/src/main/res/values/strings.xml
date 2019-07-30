@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Poly Product</string>
+    <string name="title_home">Home</string>
+    <string name="title_deal">Deal</string>
+    <string name="title_inbox">Inbox</string>
+    <string name="content_deal">Deal function still developing</string>
+    <string name="content_inbox">Inbox function still developing</string>
+    <string name="action_cart">Cart</string>
+    <string name="title_cart_activity">Cart</string>
+</resources>
