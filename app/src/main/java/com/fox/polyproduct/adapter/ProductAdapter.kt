@@ -85,9 +85,9 @@ class ProductAdapter : RecyclerView.Adapter<ProductAdapter.ProductHolder> {
     }
 
     override fun onBindViewHolder(holder: ProductHolder, i: Int) {
-        holder.tvName.text = data[i].name
-        holder.tvPrire.text = "Mean : " + data[i].price
-        holder.tvDescription.text = "Kanji : " + data[i].description
+        holder.tvName.text = "Name : " +data[i].name
+        holder.tvPrire.text = "Price : " + data[i].price
+        holder.tvDescription.text = "Description : " + data[i].description
         //holder.tvExample.text = data[i].KOTOBA_EXAMPLE
     }
 
